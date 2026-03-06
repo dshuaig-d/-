@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>课程表</title>
+    <style>
+        table { border-collapse: collapse; width: 100%; font-family: sans-serif; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+        th { background: #f0f0f0; }
+        .course { border-radius: 4px; padding: 5px; margin: 2px 0; font-size: 12px; }
+        .java { background: #e6e6ff; color: #3333cc; }
+        .china { background: #ffe6f2; color: #cc0066; }
+        .ai { background: #e6e6ff; color: #3333cc; }
+        .cloud { background: #e6f2ff; color: #0066cc; }
+        .media { background: #e6fff2; color: #009966; }
+        .marx { background: #ffffe6; color: #cc9900; }
+        .org { background: #e6fffa; color: #009999; }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <th>时间</th>
+        <th>周一<br>3/02</th>
+        <th>周二<br>3/03</th>
+        <th>周三<br>3/04</th>
+        <th>周四<br>3/05</th>
+        <th>周五<br>3/06</th>
+    </tr>
+    <tr>
+        <td>1<br>8:30-9:15</td>
+        <td></td>
+        <td><div class="course china">中国近现代史纲要<br>崇德楼509<br>姜丽华</div></td>
+        <td><div class="course ai">人工智能导论<br>崇德楼511<br>童文杰</div></td>
+        <td></td>
+        <td><div class="course cloud">云计算与大数据技术<br>崇德楼405<br>彭益静</div></td>
+    </tr>
+    <tr>
+        <td>2<br>9:20-10:05</td>
+        <td></td>
+        <td><div class="course china">中国近现代史纲要<br>崇德楼509<br>姜丽华</div></td>
+        <td><div class="course ai">人工智能导论<br>崇德楼511<br>童文杰</div></td>
+        <td></td>
+        <td><div class="course cloud">云计算与大数据技术<br>崇德楼405<br>彭益静</div></td>
+    </tr>
+    <tr>
+        <td>3<br>10:25-11:10</td>
+        <td><div class="course java">JAVA WEB应用开发<br>笃行楼102<br>李易滴</div></td>
+        <td></td>
+        <td><div class="course media">多媒体技术<br>笃行楼102<br>姚露芳</div></td>
+        <td><div class="course marx">马克思主义基本原理<br>崇德楼412<br>牟宇</div></td>
+        <td><div class="course java">JAVA WEB应用开发<br>笃行楼102<br>李易滴</div></td>
+    </tr>
+    <tr>
+        <td>4<br>11:15-12:00</td>
+        <td><div class="course java">JAVA WEB应用开发<br>笃行楼102<br>李易滴</div></td>
+        <td></td>
+        <td><div class="course media">多媒体技术<br>笃行楼102<br>姚露芳</div></td>
+        <td><div class="course marx">马克思主义基本原理<br>崇德楼412<br>牟宇</div></td>
+        <td><div class="course java">JAVA WEB应用开发<br>笃行楼102<br>李易滴</div></td>
+    </tr>
+    <tr>
+        <td colspan="6" style="background:#f9f9f9; color:#666;">午休</td>
+    </tr>
+    <tr>
+        <td>5<br>14:00-14:45</td>
+        <td></td>
+        <td></td>
+        <td><div class="course china">中国近现代史纲要<br>崇德楼302<br>姜丽华</div></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>6<br>14:50-15:35</td>
+        <td></td>
+        <td></td>
+        <td><div class="course china">中国近现代史纲要<br>崇德楼302<br>姜丽华</div></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>7<br>15:55-16:40</td>
+        <td><div class="course org">计算机组成原理<br>崇德楼505<br>钟娇娇</div></td>
+        <td><div class="course org">计算机组成原理<br>崇德楼505<br>钟娇娇</div></td>
+        <td><div class="course cloud">云计算与大数据技术<br>崇德楼405<br>彭益静</div></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>8<br>16:45-17:30</td>
+        <td><div class="course org">计算机组成原理<br>崇德楼505<br>钟娇娇</div></td>
+        <td><div class="course org">计算机组成原理<br>崇德楼505<br>钟娇娇</div></td>
+        <td><div class="course cloud">云计算与大数据技术<br>崇德楼405<br>彭益静</div></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>9<br>18:10-18:55</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>10<br>19:00-19:45</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>11<br>19:55-20:40</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>12<br>20:45-21:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</body>
+</com>
